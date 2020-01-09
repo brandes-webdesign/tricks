@@ -76,6 +76,10 @@ if (!rex::isBackend()) {
 ?>
 ```
 
+Wichtiger Hinweis zum PHP Code:
+Wenn das Script nicht wie gewünscht klappt, schaut bitte einmal nach, ob Ihr das Backend anders aufruft als das Frontend.
+Domain bzw. Subdomain und Protokoll müssen übereinstimmen. Es funktioniert z.B. nicht, wenn man die Webseite mit www. aufruft und das Backend ohne. Oder die Website mit https und das Backend mit http.
+
 
 ## 6. GET-Parameter im Template
 
